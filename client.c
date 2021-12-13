@@ -47,13 +47,6 @@ int main() {
             perror("connect");
             ok = 0;
         }
-//		memset(&addr, 0, sizeof(addr));
-//		addr.sun_family = AF_UNIX;
-//		strcpy(addr.sun_path, SERVER_SOCK_FILE);
-//		if (connect(fd, (struct sockaddr *)&addr, sizeof(addr)) == -1) {
-//			perror("connect");
-//			ok = 0;
-//		}
     }
 
     if (ok) {
